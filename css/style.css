@@ -1,11 +1,16 @@
-h1 {
-    color: maroon;
-  }
-
-p {
-    color: black;
+.navbar {
+  background-color: teal;
+  align-items: left;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 20px; /* pixels aren't great for size. 30px refers to top bottom, 20 px refers to left right */ 
 }
 
-.navbar {
-  color: teal;
+.navbar ul li { /* this is targeting the .navbar class with ul li (unordered list) to be modifi*/
+  list-style-type: none;
+  display: inline-block;
+}
+.navbar li a {
+  text-decoration:  none;
+  padding: 15px 5px; /*15px top bottom, 5px left right*/
 }
