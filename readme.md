@@ -11,3 +11,6 @@ This is my 1st digital portfolio attempt
 - [ ] add html
 - [ ] add js
 - [ ] add css
+
+#### Contributions
+Bubu Mbata
