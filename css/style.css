@@ -19,8 +19,39 @@
 .navbar li a {
   text-decoration:  none;
   padding: 15px 5px; /*15px top bottom, 5px left right*/
+  color: black;
 }
 
-.main-content h1 {
+.main-content {
   text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.threeColumns {
+  float: left;
+  width: 31.33%;
+  padding: 0px;
+
+}
+
+.colums:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .threeColumns {
+    width: 100%;
+  }
+
+  *{
+    background-color: teal;
+  }
+
+  .title {
+  font-size: 100px;
 }
